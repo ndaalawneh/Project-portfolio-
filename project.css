@@ -1,0 +1,529 @@
+
+
+    body{
+        background-color: #f6f5f5;
+    }
+
+    .navbar-nav{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+       
+        
+       
+    }
+    .navbar{
+        height: 50px;
+        background-color: black;
+    }
+
+   
+    .section{
+       
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+
+    }
+
+    .text1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-column-start:2 ;
+        grid-column-end: 3;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1 .a{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 22px;
+        color: azure;  
+    }
+
+
+    .text1 .b{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 60px;
+        color: azure; 
+        
+    }
+
+    .text1 .c{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 33px;
+        color: azure;
+    }
+    
+  .img{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      grid-column-start: span 1;
+
+  }
+ 
+
+    .cv{
+       border: none;
+        height: 50px;
+        width: 150px;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+        transition: 1s;  
+        border-radius: 10px;
+    }
+    .cv:hover{
+        background-color: azure;
+        color: black;
+    }
+    
+    .abc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        background: rgba(0, 0, 0, 0.7);
+       
+        
+        
+    }
+    .ab{
+        width: 80%;
+        min-height: 90%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        border-radius: 10px; 
+        transition: 1s; 
+        margin-top: 20px; 
+        
+
+    }
+    .ab:hover{
+        background-color: rgba(240 , 255, 255,1);
+        color: black;  
+    }
+
+
+
+    .cd{
+        font-weight: bolder;
+        text-align: center;
+        font-size: 50px;
+        color: azure;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .d{
+        font-weight: bold;
+        font-size: 17px;
+        padding: 1% 20%;
+        color: rgb(188, 196, 196);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+    .nada {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:600px 600px 600px 600px 600px 600px;
+        
+        
+        
+    }
+    
+    .one {
+        grid-row-start: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+
+    }
+
+    .A{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.6) ;
+        display: flex;
+        height: 600px;
+        border-radius: 10px; 
+        margin-top: 40px;
+    }
+        
+
+    
+    .text{
+     text-align: center;
+    }
+    .one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-right: 3%;
+        margin-bottom: 2%;
+       
+        
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        flex-direction: column;
+        color: azure;
+        font-size: 20pt;
+    }
+    .txt h2{
+        text-align: center;
+        width: 100%;
+        justify-content:center ;
+        display: flex;
+        font-size: 40pt;
+    }
+    h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .two {
+        grid-row-start: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.7);}
+
+        .B{
+            width: 80%;
+            background-color:rgba(0, 0, 0, 0.6) ;
+            display: flex;
+            height: 600px;
+            border-radius: 10px; 
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+
+        }
+
+        
+        
+
+        .three{
+        grid-row-start: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.7);
+    }
+        
+    .C{
+        width: 80%;
+        background-color:rgba(0, 0, 0, 0.6) ;
+        display: flex;
+        height: 600px;
+        border-radius: 10px; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+
+    }
+
+    .txxt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: azure;
+        font-size: 40pt;}
+
+       
+
+        
+
+        .four{
+            grid-row-start: 4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5); 
+            flex-direction: column; 
+       }
+        
+            
+
+        .iamg{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+               
+                margin-bottom: 2%;}
+          
+         .five{
+             grid-row-start: 5;
+              display: flex;
+             justify-content: center;
+             align-items: center;
+              background: rgba(0, 0, 0, 0.7);}
+
+            .E{
+                width: 80%;
+        background-color:rgba(0, 0, 0, 0.6) ;
+        display: flex;
+        height: 600px;
+        border-radius: 10px; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 180px;
+            }
+
+              .six{
+                grid-row-start: 6;
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+                 background: rgba(0, 0, 0, 0.7);}
+
+                 .F {
+                    width: 80%;
+                    background-color:rgba(0, 0, 0, 0.6) ;
+                    display: flex;
+                    height: 600px;
+                    border-radius: 10px; 
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 240px;
+                 }
+    
+
+
+        
+
+   
+   
+    .CM{
+        width: 100%;
+        min-height: 100px;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .CM p{
+        color: white;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+   
+    
+
+    
+   
+   
+
+   .social a{
+       width: 40px;
+       height: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 20px 10px;
+       border-radius: 50%;
+       background-color: rgb(238, 231, 231);
+      
+   }
+   .social{
+       display: flex;
+       justify-content: center;
+      
+   }
+    .social .icon{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .social a:hover{
+        background-color: rgb(139, 9, 9);
+        transition: all ease 0.5s;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    
+        
+   
+    
+    
+    
+    @media  (min-width:768px) and (max-width:1023px){
+        
+        
+        
+
+        .text1 .b{
+             font-size: 30px;}
+
+          .text1 .c {
+             font-size: 15px; }  
+
+             
+    }
+
+    .txxt p{
+        font-size: 15pt; padding-left: 10px;
+    }
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    @media   (min-width:320px) and (max-width:767px){
+        .pic {
+            height: 100px;
+            left: 30px;
+            width: 102px;
+        }
+
+        .text1 .a {
+            font-size: 10px;
+           
+            margin-top: 50px;
+        }
+
+        .text1 .b {
+            font-size: 15px;
+           
+        }
+
+        .text1 .c {
+            font-size: 12px;
+           
+        }
+
+      .text{
+          font-size: 10pt;
+      }
+
+      .A {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        height: 600px;
+        border-radius: 10px;
+        flex-direction: column;}
+
+      .one-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right: 3%;
+        margin-bottom: 2%;
+        width: 50px;
+    }
+
+    .B {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        height: 600px;
+        border-radius: 10px;
+        flex-direction: column;}
+
+
+        .txt {
+            
+            flex-direction: column;
+            
+            font-size: 10pt;
+        }
+
+
+        .one-img {
+           
+            width: 200px;
+        }
+
+        .txxt p{
+            font-size: 10pt; padding-left: 10px;
+        }
+
+
+
+
+        section {
+            height: 160px;
+        }
+
+        .cv {
+          
+            height: 30px; 
+        }
+
+        .ab {
+            width: 80%;
+        }
+
+        .cd {
+            font-size: 20px;
+        }
+
+        .d {
+            font-size: 10px;
+        }
+
+        .wrapper {
+            grid-template-columns: 320px;    
+        }
+
+        .CM p {
+            font-size: 12px;
+        }
+        .number {
+           
+           
+            font-size: 100%;
+            box-shadow: 4px 2px 2px rgb(80 76 79);
+        }
+
+        
+
+    }
+   
+    
