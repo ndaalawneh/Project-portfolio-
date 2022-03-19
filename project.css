@@ -8,23 +8,26 @@
         display: flex;
         width: 100%;
         justify-content: flex-end;
-       
-        
-       
+        margin: 0px 7px;
     }
+    
     .navbar{
-        height: 50px;
+        height: 70px;
         background-color: black;
+        
+        
     }
 
    
     .section{
-       
+        background-image: url(images/bg_nada.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2,50%);
         grid-template-rows: 100vh;
-        background: rgba(0, 0, 0, 0.9);
+        
 
     }
 
@@ -72,18 +75,18 @@
  
 
     .cv{
-       border: none;
+        border: none;
         height: 50px;
         width: 150px;
-        color: white;
+        color: black;
         font-weight: bold;
-        background-color: black;
+        background-color: yellow;
         transition: 1s;  
         border-radius: 10px;
     }
     .cv:hover{
-        background-color: azure;
-        color: black;
+        background-color: white;
+        color:rgb(66, 66, 66);
     }
     
     .abc{
@@ -93,229 +96,280 @@
         width: 100%;
         height: 600px;
         background: rgba(0, 0, 0, 0.7);
-       
-        
-        
     }
+
     .ab{
         width: 80%;
+        background-color: rgba(0, 0, 0, 0.6);
         min-height: 90%;
-        background: rgba(0, 0, 0, 0.6);
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
         border-radius: 10px; 
-        transition: 1s; 
-        margin-top: 20px; 
+        display: flex;
         
-
-    }
-    .ab:hover{
-        background-color: rgba(240 , 255, 255,1);
-        color: black;  
+        align-items: center;
     }
 
-
-
-    .cd{
+    
+        .about , .img-one
+        {
+            width: 50%;
+            min-height: 50%;
+            flex-direction: column;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+        }
+      .about{
+           color: azure;
+           padding-left: 13px;
+           font-size: 17pt;}
+             
+    .head-one{
         font-weight: bolder;
         text-align: center;
-        font-size: 50px;
-        color: azure;
+        font-size: 30pt;
+        color: yellow;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background: rgba(0, 0, 0, 0.6);
-    }
-    .d{
-        font-weight: bold;
-        font-size: 17px;
-        padding: 1% 20%;
-        color: rgb(188, 196, 196);
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    p{
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-
-
-    .nada {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows:600px 600px 600px 600px 600px 600px;
-        
-        
-        
-    }
-    
-    .one {
-        grid-row-start: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(0, 0, 0, 0.7);
         width: 100%;
-
-    }
-
-    .A{
-        width: 80%;
-        justify-content: center;
-        align-items: center;
-        background-color:rgba(0, 0, 0, 0.6) ;
-        display: flex;
-        height: 600px;
-        border-radius: 10px; 
-        margin-top: 40px;
-    }
-        
-
-    
-    .text{
-     text-align: center;
-    }
-    .one-img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        margin-right: 3%;
-        margin-bottom: 2%;
-       
+        border-radius: 8px;
+        transition: 1s;
+        height: 50px;
+        padding: auto
+        ;
+      
         
     }
-    .txt{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        flex-direction: column;
-        color: azure;
-        font-size: 20pt;
-    }
-    .txt h2{
-        text-align: center;
-        width: 100%;
-        justify-content:center ;
-        display: flex;
-        font-size: 40pt;
-    }
-    h2{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    .head-one:hover{
+        background-color: rgba(240 , 255, 255,1);
+        color: black;
     }
 
-    .two {
-        grid-row-start: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(0, 0, 0, 0.7);}
 
-        .B{
-            width: 80%;
-            background-color:rgba(0, 0, 0, 0.6) ;
+    .edu , .img-one
+        {
+            width: 50%;
+            min-height: 50%;
+            flex-direction: column;
+            justify-content: space-between;
             display: flex;
-            height: 600px;
-            border-radius: 10px; 
-            justify-content: center;
             align-items: center;
-            margin-top: 60px;
-
         }
 
-        
-        
-
-        .three{
-        grid-row-start: 3;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: rgba(0, 0, 0, 0.7);
-    }
-        
-    .C{
-        width: 80%;
-        background-color:rgba(0, 0, 0, 0.6) ;
-        display: flex;
-        height: 600px;
-        border-radius: 10px; 
-        justify-content: center;
-        align-items: center;
-        margin-top: 120px;
-
-    }
-
-    .txxt{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .edu{
         color: azure;
-        font-size: 40pt;}
+        padding-right: 13px;
+        font-size: 17pt;}
+    
+    .edu h1{
+        color: yellow;
+        font-weight: bold;
+        font-size: 30pt;     
+    }
+     
 
+    .cards{
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.6);
+        min-height: 90%;
+        border-radius: 10px; 
+        
+        
+    }
+    .cards h1{
+        color: yellow;
+        font-size: 30pt;
+        text-align: center;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+   
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 28px;
+    }
+    .box-one{
+        display: flex;
+        width: 40%;
+        min-height: 350px;
+        background-color: rgb(124, 124, 114);
+        border-radius: 13px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+     
+    .box-one:hover{
+        background-color: rgb(243, 243, 140);
        
-
         
+        
+    
+    }
 
-        .four{
-            grid-row-start: 4;
+    .box-one h2{
+        font-weight: bold;
+        font-size: 27pt;
+        background-color: rgb(57, 77, 77);
+        width: 60%;
+        text-align: center;
+        color: white;
+
+    }
+    
+    .box-one p{
+        font-size: 15pt;
+        font-weight: bold;
+        color: white;
+    }
+    .box-one p:hover{
+        color: black;
+    }
+
+    .cert{
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.6);
+        min-height: 90%;
+        border-radius: 10px; }
+        
+        .cert h1{
+            color: yellow;
+            font-size: 30pt;
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        
+        .pics{
             display: flex;
-            justify-content: center;
+            flex-direction: row;
+            justify-content: space-evenly;
             align-items: center;
-            background: rgba(0, 0, 0, 0.5); 
-            flex-direction: column; 
-       }
-        
+            margin-top: 60px;}
             
 
-        .iamg{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-                width: 100%;
-               
-                margin-bottom: 2%;}
-          
-         .five{
-             grid-row-start: 5;
-              display: flex;
-             justify-content: center;
-             align-items: center;
-              background: rgba(0, 0, 0, 0.7);}
+        .pic-one img{
+            border-radius: 30px;
+            border: 5px solid brown;
+        }
 
-            .E{
+
+        .refr{
+            
                 width: 80%;
-        background-color:rgba(0, 0, 0, 0.6) ;
-        display: flex;
-        height: 600px;
-        border-radius: 10px; 
-        justify-content: center;
+                background-color: rgba(0, 0, 0, 0.6);
+                min-height: 90%;
+                border-radius: 10px; 
+                
+        }
+
+        .refr h1{
+            color: yellow;
+            font-size: 30pt;
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .card-ref{
+            display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         align-items: center;
-        margin-top: 180px;
-            }
+        margin-top: 28px;
+        }
 
-              .six{
-                grid-row-start: 6;
-                 display: flex;
-                justify-content: center;
-                align-items: center;
-                 background: rgba(0, 0, 0, 0.7);}
+        .card-one{
+            width: 35%;
+            height: 400px;
+            background-color: white;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px 0 white;
+        }
 
-                 .F {
-                    width: 80%;
-                    background-color:rgba(0, 0, 0, 0.6) ;
-                    display: flex;
-                    height: 600px;
-                    border-radius: 10px; 
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 240px;
-                 }
+        .card-one p{
+            padding-left: 15px;
+            font-size: 13pt;
+            font-weight: bold;
+        }
+
+        .langu{
+            
+            width: 80%;
+            background-color: rgba(0, 0, 0, 0.6);
+            min-height: 90%;
+            border-radius: 10px; 
+            
+    }
+
+    .langu h1{
+        color: yellow;
+        font-size: 30pt;
+        text-align: center;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .qel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 28px;
+    }
+
+    .Arabic{
+        display: flex;
+        width: 30%;
+        min-height: 370px;
+        background-color: rgb(124, 124, 114);
+        border-radius: 13px;
+        flex-direction: column;}
+       
+       
+
+        .Arabic h2{
+            font-weight: bold;
+            font-size: 30pt;
+            background-color: rgb(57, 77, 77);
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding-left: 40px;
+            
+            
+           
     
+        }
 
+        .Arabic p{
+            font-size: 15pt;
+            font-weight: bold;
+            color: white;
+            text-align: end;
+            display: flex;
+            padding-left: 10px;
+        
+        }
+
+        .eval{
+            background-color: yellow;
+            border-radius: 10px;
+            margin-left: 8px;
+           
+        }
+
+   
+       
+    
+     
+        
+
+       
 
         
 
@@ -323,20 +377,21 @@
    
     .CM{
         width: 100%;
-        min-height: 100px;
+        min-height: 140px;
         background-color: rgba(0, 0, 0, 0.9);
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+       
     
     }
     .CM p{
         color: white;
         font-weight: bold;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 10px;
+        margin-left: 15px;
     }
    
     
@@ -351,14 +406,16 @@
        display: flex;
        justify-content: center;
        align-items: center;
-       margin: 20px 10px;
+       margin: 20px 8px;
        border-radius: 50%;
        background-color: rgb(238, 231, 231);
+       flex-direction: column;
       
    }
    .social{
        display: flex;
        justify-content: center;
+       width: 50%;
       
    }
     .social .icon{
@@ -368,7 +425,7 @@
     }
 
     .social a:hover{
-        background-color: rgb(139, 9, 9);
+        background-color: rgb(252, 237, 30);
         transition: all ease 0.5s;
         width: 100px;
         height: 100px;
@@ -381,149 +438,301 @@
     
     
     
-    @media  (min-width:768px) and (max-width:1023px){
-        
-        
-        
-
-        .text1 .b{
-             font-size: 30px;}
-
-          .text1 .c {
-             font-size: 15px; }  
-
-             
-    }
-
-    .txxt p{
-        font-size: 15pt; padding-left: 10px;
-    }
-
-    
-
-    
-    
-
-    
-
-    
-    
-
-    @media   (min-width:320px) and (max-width:767px){
-        .pic {
-            height: 100px;
-            left: 30px;
-            width: 102px;
-        }
+    @media  (min-width:481px) and (max-width:768px){
 
         .text1 .a {
-            font-size: 10px;
-           
-            margin-top: 50px;
+         
+            font-size: 18px;
+        
         }
 
+
         .text1 .b {
-            font-size: 15px;
-           
+            
+            
+            font-size: 22px;
+    
         }
 
         .text1 .c {
-            font-size: 12px;
-           
-        }
-
-      .text{
-          font-size: 10pt;
-      }
-
-      .A {
-        width: 80%;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.6);
-        display: flex;
-        height: 600px;
-        border-radius: 10px;
-        flex-direction: column;}
-
-      .one-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        margin-right: 3%;
-        margin-bottom: 2%;
-        width: 50px;
-    }
-
-    .B {
-        width: 80%;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.6);
-        display: flex;
-        height: 600px;
-        border-radius: 10px;
-        flex-direction: column;}
-
-
-        .txt {
             
-            flex-direction: column;
             
-            font-size: 10pt;
-        }
-
-
-        .one-img {
-           
-            width: 200px;
-        }
-
-        .txxt p{
-            font-size: 10pt; padding-left: 10px;
-        }
-
-
-
-
-        section {
-            height: 160px;
-        }
-
-        .cv {
-          
-            height: 30px; 
-        }
-
-        .ab {
-            width: 80%;
-        }
-
-        .cd {
             font-size: 20px;
+            
         }
 
-        .d {
-            font-size: 10px;
-        }
-
-        .wrapper {
-            grid-template-columns: 320px;    
-        }
-
-        .CM p {
-            font-size: 12px;
-        }
-        .number {
+        .img-one {
            
-           
-            font-size: 100%;
-            box-shadow: 4px 2px 2px rgb(80 76 79);
+            height: 250px;
+        }
+        .about {
+            
+            font-size: 11pt;
         }
 
-        
+        .edu {
+           
+            font-size: 13pt;
+        }
 
+        .box-one p {
+            font-size: 12pt;
+            
+        }
+
+        .card-one p {
+            padding-left: 15px;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+
+        .picture-one , .picture-two , .picture-three {
+            width: 180px;
+            height: 260px;
+        }
+
+        .Arabic h2 {
+            
+            font-size: 20pt;
+            padding-left: 30px;
+        }
+
+        .Arabic p {
+            font-size: 12pt;
+           
+        }
     }
-   
-    
+
+    @media screen and (max-width: 479px){
+
+        .pic{    width: 130px;}
+
+        .text1 .a {
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px;
+            color: azure;
+        }
+
+        .text1 .b {
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            color: azure;
+        }
+
+        .text1 .c {
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 12px;
+            color: azure;
+        }
+
+
+           
+
+           
+           
+            .cv {
+                
+                height: 40px;
+                width: 120px;
+               
+            }
+            .about {
+                
+                font-size: 8pt;
+            }
+
+
+            .head-one {
+               
+                font-size: 20pt;
+               
+               
+              
+            }
+            .edu {
+                
+                font-size: 8pt;
+            }
+        
+            .edu h1 {
+                
+                font-size: 20pt;
+            }
+
+            .head-one {
+               
+                font-size: 10pt;
+                margin-top: 10px;
+                padding-top: 15px;
+                margin-left: 100px;
+            }
+
+            .me{
+                width: 100px;
+                height: 180px;
+
+            }
+                
+             .uni {
+                
+                width: 60%;
+                height: 250px;
+            }
+
+            .ex {
+               
+                width: 60%;
+                
+                height: 250px;
+                margin-top: 30px;
+
+            }
+
+            .ab {
+                
+                min-height: 75%;
+                
+            }
+
+            .pics {
+                
+                flex-direction: column;
+               
+            }
+
+            .picture-one{
+                width: 200px;
+                height: 120px;
+            
+            }
+            
+                .picture-two
+                {
+                    width: 200px;
+                    height: 120px;
+                    margin-top: 10px;
+                }
+
+                .picture-three
+                {
+                    width: 200px;
+                    height: 120px;
+                    margin-top: 10px;
+                }
+
+                .cards {
+                    
+                    min-height: 75%;
+                   
+                }
+                .cards h1 {
+                   
+                    font-size: 20pt;
+                    
+                }
+
+                .cert h1 {
+                    
+                    font-size: 20pt;
+                    margin-top: 20px;
+                    
+                }
+
+                .refr h1 {
+                   
+                    font-size: 20pt;
+                   
+                }
+
+                .card-one {
+                    width: 40%;
+                    height: 390px;
+                    
+                }
+
+                .langu h1 {
+                  
+                    font-size: 20pt;
+                   
+                }
+
+                .Arabic {
+                   
+                    width: 45%;
+                    min-height: 300px;
+                    margin-top: auto;
+                }
+
+                .eval {
+                    
+                    margin-left: 3px;
+                    
+                }
+
+                .langu {
+                   
+                    min-height: 75%;
+                   
+                }
+
+
+            .box-one p {
+                font-size: 5pt;
+              
+            }
+
+            .box-one h2 {
+               
+                font-size: 10pt;}
+               
+                
+                .card-one p {
+                    padding-left: 3px;
+                    font-size: 6pt;
+                    
+                }
+
+                .Arabic h2 {
+                
+                    font-size: 10pt;
+                    
+                    padding-left: 0px;
+                }
+
+                .Arabic p {
+                    font-size: 8pt;
+                    
+                    padding-left: 3px;
+                }
+
+                .CM {
+                    flex-direction: column;
+                }
+
+                .CM p {
+                   
+                    font-size: 18px;
+                    
+                    
+                }
+
+                .social a {
+                    width: 30px;
+                    height: 0px;
+                   
+                }
+
+            }
+
+
+
+            
+       
+           
+
+
+
+       
