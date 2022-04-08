@@ -4,6 +4,10 @@
         background-color: #f6f5f5;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     .navbar-nav{
         display: flex;
         width: 100%;
